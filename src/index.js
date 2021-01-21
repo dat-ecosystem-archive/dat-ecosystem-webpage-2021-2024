@@ -5,7 +5,8 @@ const route = location.pathname
 // @TODO: refactor to use proper styling http://datproject.github.io/design/
 
 const data = [{
-  title: 'dat - brainstorming the idea',
+  // 2011 - 1
+  title: 'dat - brainstorming an idea',
   type: 'article',
   date: ['2011/10/17', 'October 2011'],
   text: 'Max Ogden chats with Rufus Pollock about a changes protocol for data to allow diffing/merging and supports micro-schemas at the Open Government Data Camp',
@@ -14,6 +15,7 @@ const data = [{
     url: 'https://rufuspollock.com/2011/10/17/weekly-update-rufus-pollock-2/'
   }]
 },{
+  // 2013 - 1
   title: 'Knight Foundation Funding ($50.000)',
   type: 'grant',
   date: ['2013/06/23', 'June 2013'],
@@ -26,6 +28,7 @@ const data = [{
       url: 'https://github.com/dat-ecosystem/dat-data.com'
     }]
 },{
+  // 2013 - 2
   title: 'dat - initial readme',
   type: 'milestone',
   date: ['2013/06/27', 'June 2013'],
@@ -38,6 +41,17 @@ const data = [{
     url: 'https://blog.okfn.org/2013/07/02/git-and-github-for-data/'
   }]
 },{
+  // 2013 - 3
+  title: 'twitter account',
+  type: 'asset',
+  date: ['2013/11/', 'November 2013'],
+  text: 'create @dat_protocol twitter account',
+  tags: [{
+    text: '@dat_protocol',
+    url: 'https://twitter.com/dat_protocol'
+  }]
+},{
+  // 2014 - 1
   title: 'Alfred P. Sloan Foundation Funding ($260.000)',
   type: 'grant',
   date: ['2014/04/02  -  07:30', 'April 2014'],
@@ -47,6 +61,7 @@ const data = [{
     url: 'https://usopendata.org/2014/04/02/dat/'
   }]
 },{
+  // 2014 - 2
   title: 'peermaps',
   type: 'project',
   date: ['2014/05/22 ', 'May 2014'],
@@ -59,6 +74,7 @@ const data = [{
     url: 'https://github.com/peermaps/peermaps/tree/6b3441990f67c66ceba686a0fab627d465c39f6f'
   }]
 },{
+  // 2014 - 3
   title: 'dat - alpha',
   type: 'milestone',
   date: ['2014/08/19', 'August 2014'],
@@ -69,8 +85,22 @@ const data = [{
   }]
 }]
 
-// include: https://dat.foundation/about/history/
 
+
+
+// {
+//   title: 'open collective account',
+//   type: 'asset',
+//   date: ['2018/10/05', 'October 2018'],
+//   text: 'open open collective account for dat',
+//   tags: [{
+//     text: 'opencollective dat',
+//     url: 'https://opencollective.com/dat'
+//   }]
+// }
+
+
+// include: https://dat.foundation/about/history/
 
 // DAT in WIKIPEDIA
 // * https://en.wikipedia.org/wiki/Dat_(software)
@@ -238,8 +268,8 @@ if (route === '/history.html') {
       <div class="body">
         <p>${text}</p>
         <ul class="content-skills">${tags.map(tag => {
-          return `<li><a href="${tag.url}" target="_blank">${tag.text}</a></li>`
-        })}</ul>
+          return `<li><a class="link" href="${tag.url}" target="_blank">${tag.text}</a></li>`
+        }).join('')}</ul>
         <span class="cd-date">${summary}</span>
       </div> <!-- body -->
     </div> <!-- cd-timeline-content -->
