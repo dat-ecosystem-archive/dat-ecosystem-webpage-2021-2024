@@ -6,9 +6,32 @@
     <title>Dat Ecosystem</title>
     <link rel="icon" href="favicon-32x32.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;display=swap">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <style>
+      html { box-sizing: border-box;}
+      *, *:before, *:after { box-sizing: inherit; }
+      .app__main {
+        position: relative;
+      }
+      .navlink {
+        /* position: absolute; */
+        padding: 10px;
+        border: 3px solid black;
+        width: 200px;
+        text-align: center;
+        margin-right: 5px;
+        border-radius: 2px;
+      }
+      .navbar {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        /* border: 1px solid red; */
+      }
       .project {
         padding: 35px;
         background: #fff;
@@ -32,8 +55,11 @@
     <br>
 
     <main class="app__main">
+      <div class="navbar">
+        <a class="navlink" href="/">ecosystem</a>
+        <a class="navlink" href="history.html">history</a>
+      </div>
       <div class="content__default">
-
         <div class="projects-index">
 
           <h1 class="page-title">Dat Ecosystem</h1>
@@ -242,5 +268,6 @@
       </div>
 
     </main>
+    <script src="bundle.js"></script>
   <body>
 </html>

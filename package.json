@@ -1,0 +1,31 @@
+{
+  "name": "dat-ecosystem.github.io",
+  "version": "1.0.0",
+  "description": "web page for dat-ecosystem",
+  "main": "src/index.js",
+  "dependencies": {
+    "budo": "^11.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "budo src/index.js:bundle.js --live --open",
+    "build": "browserify src/index.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dat-ecosystem/dat-ecosystem.github.io.git"
+  },
+  "keywords": [
+    "dat",
+    "ecosystem",
+    "hypercore-protocol",
+    "hyper-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dat-ecosystem/dat-ecosystem.github.io/issues"
+  },
+  "homepage": "https://github.com/dat-ecosystem/dat-ecosystem.github.io#readme"
+}
