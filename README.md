@@ -5,7 +5,7 @@ Join the Dat ecosystem chat network
 * with [Discord](https://discord.gg/dPEKwfrv2D)
 * or with [Cabal](https://github.com/dat-ecosystem/dat-ecosystem.github.io#connect-to-cabal-with-cli-or-download-cabal-desktop)
 
-**List of channels**
+### List of channels
 
 Community
 * hello
