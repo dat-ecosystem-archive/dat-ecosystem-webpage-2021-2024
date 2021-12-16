@@ -49,7 +49,7 @@ Projects
 
 4. Switch between channels
 
-`/join channel-name` (i.e. `/join offtopic`)
+`/join channel-name` (i.e. `/join general`)
 
 5. See all channels
 
