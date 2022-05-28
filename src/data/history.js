@@ -54,7 +54,7 @@ module.exports = [
     title: 'twitter account',
     type: 'asset',
     date: ['2013/11/', 'November 2013'],
-    text: 'create @dat_protocol twitter account (later renamed to @dat_ecosystem)',
+    text: '@dat_protocol twitter account is created (later renamed to @dat_ecosystem)',
     tags: [{
       text: 'twitter',
       url: 'https://twitter.com/dat_ecosystem'
@@ -137,7 +137,7 @@ module.exports = [
     title: 'dat - beta',
     type: 'milestone',
     date: ['2015/07/29', 'July 2015'],
-    text: 'Dat Alpha version is released -  the version focused on tabular datasets. It turns out to be too complex for typical use cases',
+    text: 'Dat Beta version is released -  the version focused on tabular datasets. It turns out to be too complex for typical use cases',
     tags: [{
       text: 'realease article',
       url: 'https://usopendata.org/2015/07/29/dat-beta/'
@@ -332,7 +332,7 @@ module.exports = [
   },
   {
     // 2018 - 2
-    title: 'Beaker browser and the Dat protocol: An analysis for COMP 117: Internet-scale Distributed Systems',
+    title: 'Beaker browser and the Dat protocol analysis',
     type: 'scientific article',
     date: ['2018/05/01', 'May 2018'],
     text: 'Beaker browser and the Dat protocol: An analysis for COMP 117: Internet-scale Distributed Systems is released',
@@ -381,7 +381,7 @@ module.exports = [
     // 2018 - 4
     title: 'how dat works',
     type: 'project',
-    date: ['', 'Nov 2018'],
+    date: ['2018/11/01', 'Nov 2018'],
     text: 'How dat works visualization project is started',
     tags: [{
       text: 'visualization',
@@ -392,7 +392,7 @@ module.exports = [
     // 2018 - 4
     title: 'dat open collective',
     type: 'donations',
-    date: ['2018', '2018'],
+    date: ['2018/10/05', 'Oct 2018'],
     text: 'Dat Open Collective page is set up for recurring donations',
     tags: [{
       text: 'dat open collective profile',
@@ -403,7 +403,7 @@ module.exports = [
     // 2018 - 4
     title: 'Handshake Grant ($100.000)',
     type: 'grant',
-    date: ['2018/12', 'Dec 2018'],
+    date: ['2018/12/01', 'Dec 2018'],
     text: 'Handshake Grant is received',
     tags: [{
       text: 'article',
@@ -425,7 +425,7 @@ module.exports = [
     // 2019 - 1
     title: 'Samsung NEXT Stack Zero Grant ($63.000)',
     type: 'grant',
-    date: ['2018/12', 'Dec 2018'],
+    date: ['2018/12/01', 'Dec 2018'],
     text: 'Samsung NEXT Stack Zero grant is received',
     tags: [{
       text: 'article',
@@ -447,7 +447,7 @@ module.exports = [
     // 2019 - 3
     title: 'Wireline Donation ($50,000)',
     type: 'donation',
-    date: ['2019/06', 'Jun 2019'],
+    date: ['2019/06/01', 'Jun 2019'],
     text: 'Dat Project receives donation from Wireline',
     tags: [{
       text: 'organization repository',
@@ -458,7 +458,7 @@ module.exports = [
     // 2019 - 4
     title: 'dat consortium',
     type: 'organization',
-    date: ['2019/12', 'Dec 2019'],
+    date: ['2019/12/01', 'Dec 2019'],
     text: 'Dat consortium is formed',
     tags: [{
       text: 'notes',
@@ -469,7 +469,7 @@ module.exports = [
     // 2019 - 4
     title: 'ara',
     type: 'project',
-    date: ['2019/12', 'Dec 2019'],
+    date: ['2019/12/01', 'Dec 2019'],
     text: 'Ara joins the ecosystem',
     tags: [{
       text: 'website',
@@ -480,7 +480,7 @@ module.exports = [
     // 2019 - 4
     title: 'consento',
     type: 'project',
-    date: ['2019/12', 'Dec 2019'],
+    date: ['2019/12/01', 'Dec 2019'],
     text: 'Consento joins the ecosystem',
     tags: [{
       text: 'website',
@@ -491,7 +491,7 @@ module.exports = [
     // 2019 - 4
     title: 'datdot',
     type: 'project',
-    date: ['2019/12', 'Dec 2019'],
+    date: ['2019/12/01', 'Dec 2019'],
     text: 'DatDot joins the ecosystem',
     tags: [{
       text: 'website',
@@ -502,7 +502,7 @@ module.exports = [
     // 2019 - 4
     title: 'decentlabs',
     type: 'project',
-    date: ['2019/12', 'Dec 2019'],
+    date: ['2019/12/01', 'Dec 2019'],
     text: 'Decentlabs joins the ecosystem',
     tags: [{
       text: 'website',
@@ -513,7 +513,7 @@ module.exports = [
     // 2019 - 4
     title: 'geut',
     type: 'project',
-    date: ['2019/12', 'Dec 2019'],
+    date: ['2019/12/01', 'Dec 2019'],
     text: 'Geut joins the ecosystem',
     tags: [{
       text: 'website',
@@ -524,7 +524,7 @@ module.exports = [
     // 2019 - 4
     title: 'digital democracy',
     type: 'project',
-    date: ['2019/12', 'Dec 2019'],
+    date: ['2019/12/01', 'Dec 2019'],
     text: 'Digital Democracy joins the ecosystem',
     tags: [{
       text: 'website',
@@ -557,7 +557,7 @@ module.exports = [
     // 2020 -2
     title: 'NLnet grant ($50.000)',
     type: 'grant',
-    date: ['2020/07', 'Jul 2020'],
+    date: ['2020/07/01', 'Jul 2020'],
     text: 'NLnet grant is recieved for a Rust port',
     tags: [{
       text: 'organization repository',
@@ -681,7 +681,7 @@ module.exports = [
     date: ['2021/07/02', 'Jul 2021'],
     text: 'Autobase v3.0.0-beta is released',
     tags: [{
-      text: 'hyperswarm repository',
+      text: 'autobase repository',
       url: 'https://github.com/hypercore-protocol/autobase/releases/tag/v1.0.0-alpha.0'
     }]
   },
@@ -689,8 +689,8 @@ module.exports = [
     // 2021 - 3
     title: 'dat ecosystem archive',
     type: 'organization',
-    date: ['2020/08', 'Aug 2021'],
-    text: 'Dat ecosystem archive is created to archive all the hostoric repositories',
+    date: ['2020/08/01', 'Aug 2021'],
+    text: 'Dat ecosystem archive is created to archive all the historic repositories',
     tags: [{
       text: 'dat ecosystem archive organization',
       url: 'https://github.com/dat-ecosystem-archive'
@@ -711,7 +711,7 @@ module.exports = [
     // 2021 - 4
     title: 'telios',
     type: 'project',
-    date: ['2021/11', 'Nov 2021'],
+    date: ['2021/11/01', 'Nov 2021'],
     text: 'telios joins the ecosystem',
     tags: [{
       text: 'website',
@@ -734,7 +734,7 @@ module.exports = [
     title: 'ahau',
     type: 'project',
     date: ['2020/04/30', 'Apr 2022'],
-    text: 'ahau releases their email desktop client',
+    text: 'ahau joins the ecosystem',
     tags: [{
       text: 'website',
       url: 'https://ahau.io/'
