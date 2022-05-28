@@ -228,8 +228,8 @@ module.exports = [
     date: ['2016/12', 'Dec 2016'],
     text: 'The first meetups for ‘Coding for Science & Society’ are held in Berlin, Oakland, and Portland; organized by the Dat team',
     tags: [{
-      text: '',
-      url: ''
+      text: 'community',
+      url: 'https://blog.datproject.org/tag/community/'
     }]
   },
   {
