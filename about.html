@@ -986,20 +986,24 @@
 
       let container = document.getElementById("x");
 
-      let el = data.map(
-        (d) => `<div class="history_card">
+      let el = data
+        .map(
+          (d) => `<div class="history_card">
                    <p class="history_card_typAndDate">${d.type} - ${d.date}</p>
                    <p class="history_card_title">${d.title}</p>
                    <p class="history_card_text">${d.text}</p>
                    <div class="history_card_tags">
-                      ${d.tags.map(
-                        (tag) =>
-                          `<a class="history_card_tag" target='_blank' href="${tag.url}">${tag.text}</a>`
-                      )}
+                      ${d.tags
+                        .map(
+                          (tag) =>
+                            `<a class="history_card_tag" target='_blank' href="${tag.url}">${tag.text}</a>`
+                        )
+                        .join("")}
                    </div>
                </div>
            `
-      );
+        )
+        .join("");
 
       container.innerHTML = el;
     </script>

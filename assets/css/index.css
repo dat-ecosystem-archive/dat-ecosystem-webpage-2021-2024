@@ -383,6 +383,9 @@ footer div {
 .history_container {
     margin-top: 88px;
     margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .history_card {
@@ -698,6 +701,11 @@ footer div {
 @media only screen and (max-width: 768px) {
     .mission_container {
         flex-wrap: wrap;
+    }
+
+    .history_card_title {
+        font-size: 18px;
+        line-height: 27px;
     }
 
     .article_header_h6 {
