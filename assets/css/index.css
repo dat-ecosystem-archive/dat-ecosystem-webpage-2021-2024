@@ -96,7 +96,7 @@ nav a:hover {
 
 .header_projects {
     min-height: 400px;
-    background-image: url('/assets/images/img1.png');
+    background-image: url('assets/images/img1.png');
     background-position: center center;
     margin: 100px 0;
     padding-top: 100px;
@@ -104,7 +104,7 @@ nav a:hover {
 
 .header_about {
     min-height: 536px;
-    background-image: url('/assets/images/img2.png');
+    background-image: url('assets/images/img2.png');
     background-position: center center;
     margin: 100px 0;
     padding-top: 100px;
