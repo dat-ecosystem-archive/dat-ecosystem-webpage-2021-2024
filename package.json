@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo src/index.js:bundle.js --dir ./ --live --open",
-        "build": "browserify src/index.js -o bundle.js"
+      "start": "budo src/index.js:bundle.js --dir ./ --live --open",
+      "build": "browserify src/index.js -o bundle.js"
   },
   "author": "mitsustudio.com",
   "license": "ISC",
