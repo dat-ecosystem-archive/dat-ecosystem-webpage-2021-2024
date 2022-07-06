@@ -102,6 +102,14 @@ nav a:hover {
     padding-top: 100px;
 }
 
+.header_consortium {
+    min-height: 300px;
+    background-image: url("img1.png");
+    background-position: center center;
+    margin: 100px 0;
+    padding-top: 100px;
+}
+
 .header_about {
     min-height: 536px;
     background-image: url("img2.png");
@@ -116,12 +124,8 @@ nav a:hover {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-
     line-height: 24px;
-    /* identical to box height, or 100% */
-
     letter-spacing: 0.02em;
-
     color: rgba(40, 54, 72, 0.75);
 }
 
@@ -221,6 +225,26 @@ h1 {
     justify-content: center;
     margin-top: 88px;
     margin-bottom: 200px;
+}
+
+.toolsweuse_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+    margin-top: 88px;
+    margin-bottom: 200px;
+}
+
+.consortum_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    margin-top: 88px;
+    margin-bottom: 200px;
+}
+
+.consortum_container a {
+    color: #FE97D5;
 }
 
 .focus_container {
@@ -493,9 +517,7 @@ footer div {
 
     text-align: center;
     letter-spacing: 0.04em;
-
-    /* Main */
-
+    text-transform: capitalize;
     color: #283648;
 }
 
@@ -504,7 +526,8 @@ footer div {
     margin: 0 auto 24px auto;
 }
 
-.gr_card li {
+.gr_card li,
+.con_card li {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -626,6 +649,27 @@ footer div {
 }
 
 
+
+/*** Concortim **********/
+
+.con_card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px 24px;
+    gap: 32px;
+    max-width: 600px;
+    background: rgba(43, 54, 70, 0.05);
+    border-radius: 8px;
+}
+
+.con_card_img {
+    display: flex;
+    margin: 0 auto 16px auto;
+    width: 90px;
+    height: 90px;
+}
+
 /* Media Quesries */
 
 @media screen and (max-width: 1280px) {
@@ -638,6 +682,11 @@ footer div {
     .focus_container {
         flex-wrap: wrap;
     }
+
+    .toolsweuse_container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 
 }
 
@@ -699,6 +748,23 @@ footer div {
 }
 
 @media only screen and (max-width: 768px) {
+    .consortum_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .nav_linksNAV {
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+    }
+
+
+    .consortum_container {
+        grid-template-columns: 1fr;
+
+    }
+
     .mission_container {
         flex-wrap: wrap;
     }
@@ -801,4 +867,17 @@ footer div {
         width: 100%;
         max-width: unset;
     }
+
+    .toolsweuse_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    .toolsweuse_container {
+        grid-template-columns: 1fr;
+    }
+
+
 }
