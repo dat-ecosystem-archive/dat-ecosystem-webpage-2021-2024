@@ -2,8 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-
+    font-family: "Roboto", sans-serif;
 }
 
 /* width */
@@ -29,8 +28,8 @@
 
 :root {
     --main-color: #283648;
-    --pink: #FE97D5;
-    --green: #5DB15B;
+    --pink: #fe97d5;
+    --green: #5db15b;
 
     --transition: all ease 0.5s;
 }
@@ -46,7 +45,6 @@
     max-width: 1374px;
     margin: 0 auto;
     width: 100%;
-
 }
 
 nav {
@@ -91,7 +89,7 @@ nav a:hover {
 }
 
 .activeLink {
-    color: #5DB15B;
+    color: #5db15b;
 }
 
 .header_projects {
@@ -103,24 +101,28 @@ nav a:hover {
 }
 
 .header_consortium {
-    min-height: 300px;
+    height: fit-content;
     background-image: url("img1.png");
     background-position: center center;
     margin: 100px 0;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .header_about {
-    min-height: 536px;
+
     background-image: url("img2.png");
-    background-position: center center;
+    background-position: top;
+    background-repeat: no-repeat;
     margin: 100px 0;
     padding-top: 100px;
+    padding-bottom: 100px;
+    height: fit-content;
+
 }
 
 .header_tag {
-
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -143,7 +145,7 @@ nav a:hover {
 }
 
 h1 {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -156,11 +158,10 @@ h1 {
 
     color: var(--main-color);
     margin-bottom: 32px;
-
 }
 
 .header__p {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -175,7 +176,7 @@ h1 {
 
 .header__p a {
     color: var(--green);
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -198,7 +199,7 @@ h1 {
 }
 
 .article_header_h1 {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -244,7 +245,7 @@ h1 {
 }
 
 .consortum_container a {
-    color: #FE97D5;
+    color: #fe97d5;
 }
 
 .focus_container {
@@ -255,7 +256,6 @@ h1 {
     margin-top: 88px;
     margin-bottom: 200px;
 }
-
 
 .mission_card {
     display: flex;
@@ -268,7 +268,6 @@ h1 {
     background: rgba(43, 54, 70, 0.05);
     border-radius: 8px;
 }
-
 
 .mission_card p,
 .focus_card p {
@@ -313,7 +312,6 @@ h1 {
 }
 
 .project_img {
-
     height: auto;
     max-width: 100px;
     max-height: 64px;
@@ -327,7 +325,7 @@ h1 {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.04em;
-    color: #5DB15B;
+    color: #5db15b;
     margin-bottom: 16px;
 }
 
@@ -342,7 +340,6 @@ h1 {
 
     color: #283648;
     margin-bottom: 24px;
-
 }
 
 .project_sm {
@@ -360,14 +357,14 @@ h1 {
 
 .project_tag {
     padding: 6px 14px;
-    background: #5DB15B;
+    background: #5db15b;
     border-radius: 29px;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 footer {
@@ -392,7 +389,6 @@ footer p {
     letter-spacing: 0.02em;
 
     color: #283648;
-
 }
 
 footer div {
@@ -402,7 +398,6 @@ footer div {
     justify-content: center;
     align-items: center;
 }
-
 
 .history_container {
     margin-top: 88px;
@@ -434,11 +429,11 @@ footer div {
 
     /* grn */
 
-    color: #5DB15B;
+    color: #5db15b;
 }
 
 .history_card_title {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -454,7 +449,7 @@ footer div {
 }
 
 .history_card_text {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -465,7 +460,6 @@ footer div {
     text-transform: capitalize;
 
     color: #283648;
-
 }
 
 .history_card_tags {
@@ -476,7 +470,7 @@ footer div {
 }
 
 .history_card_tag {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -486,12 +480,10 @@ footer div {
     color: var(--main-color);
     padding: 8px 24px;
     height: 36px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 45px;
     text-decoration: none;
 }
-
-
 
 /*** Growth Program ************/
 .gr_card {
@@ -505,7 +497,6 @@ footer div {
     max-width: 354px;
     background: rgba(43, 54, 70, 0.05);
     border-radius: 8px;
-
 }
 
 .gp_title {
@@ -555,7 +546,6 @@ footer div {
 }
 
 .col_subtitile {
-
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -599,7 +589,6 @@ footer div {
     letter-spacing: 0.06em;
     margin-bottom: 4px;
     color: #283648;
-
 }
 
 .step_text {
@@ -614,8 +603,6 @@ footer div {
     /* Main */
 
     color: #283648;
-
-
 }
 
 .btn {
@@ -628,7 +615,7 @@ footer div {
     max-width: 104px;
     text-decoration: none;
 
-    background: #5DB15B;
+    background: #5db15b;
     border-radius: 8px;
     font-style: normal;
     font-weight: 500;
@@ -638,17 +625,14 @@ footer div {
 
     letter-spacing: 0.02em;
 
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 24px;
-
 }
 
 .btn:hover {
     background-color: var(--main-color);
     transition: var(--transition);
 }
-
-
 
 /*** Concortim **********/
 
@@ -686,8 +670,6 @@ footer div {
     .toolsweuse_container {
         grid-template-columns: 1fr 1fr 1fr;
     }
-
-
 }
 
 @media screen and (max-width: 1440px) {
@@ -734,7 +716,6 @@ footer div {
 
 @media screen and (max-width: 956px) {
     footer {
-
         padding: 32px 24px !important;
     }
 
@@ -752,17 +733,14 @@ footer div {
         grid-template-columns: 1fr 1fr;
     }
 
-
     .nav_linksNAV {
         gap: 16px;
         flex-wrap: wrap;
         margin-bottom: 24px;
     }
 
-
     .consortum_container {
         grid-template-columns: 1fr;
-
     }
 
     .mission_container {
@@ -779,10 +757,8 @@ footer div {
         line-height: 27px;
     }
 
-
     .header_projects {
         background-position: 66% center;
-
     }
 
     .article_header_h1 {
@@ -821,8 +797,6 @@ footer div {
         font-size: 14px;
         line-height: 21px;
     }
-
-
 
     .focus_container {
         flex-direction: column;
@@ -871,13 +845,34 @@ footer div {
     .toolsweuse_container {
         grid-template-columns: 1fr 1fr;
     }
-
 }
 
 @media screen and (max-width: 470px) {
     .toolsweuse_container {
         grid-template-columns: 1fr;
     }
+}
 
+.gp_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
+.gp_content a {
+    color: #283648;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.gp_content a:hover {
+    color: #5db15b;
+}
+
+.gp_content a::after {
+    content: url(../images/externalLink.png);
+    position: absolute;
+    top: -5px;
+    right: -30px;
 }
