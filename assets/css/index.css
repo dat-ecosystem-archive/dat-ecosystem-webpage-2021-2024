@@ -302,11 +302,14 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   padding: 48px 24px;
   background: rgba(43, 54, 70, 0.05);
   border-radius: 8px;
   max-width: 308px;
+}
+
+.project_card__img {
+  height: 130px;
 }
 
 .project_img {
