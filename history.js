@@ -738,7 +738,7 @@ let data = [
       text: "Hyperbee 1.0 is released",
       tags: [
         {
-          text: "",
+          text: "Hyperbee",
           url: "https://github.com/hypercore-protocol/hyperbee/releases/tag/v1.0.0",
         },
       ],
@@ -880,18 +880,22 @@ let data = [
   let el = data
     .map(
       (d) => `<div class="history_card">
-               <p class="history_card__date">${d.date}</p>
-               <p class="history_card_title">${d.title}</p>
-               <p class="history_card_type">${d.type}</p>
-               <p class="history_card_text">${d.text}</p>
-               <div class="history_card_tags">
-                  ${d.tags
-                    .map(
-                      (tag) =>
-                        `<a class="history_card_tag" target='_blank' href="${tag.url}">${tag.text}</a>`
-                    )
-                    .join("")}
-               </div>
+                <div class="history_card__header">
+                    <p class="history_card__date">${d.date[1]}</p>
+                    <p class="history_card_type">${d.type}</p>
+                </div>
+                <p class="history_card_title">${d.title}</p>
+                <p class="history_card_text">${d.text}</p>
+                <div class="history_card_tags">
+                    ${d.tags.length === 0 ? null : d.tags
+                        .map(
+                        (tag) =>
+                            `<a class="history_card_tag" target='_blank' href="${tag.url}">${tag.text}
+                                <img src='./assets/images/externalLink.png' />
+                            </a>`
+                        )
+                        .join("")}
+                </div>
            </div>
        `
     )

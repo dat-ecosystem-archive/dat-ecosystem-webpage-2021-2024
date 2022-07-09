@@ -406,37 +406,59 @@ footer div {
 }
 
 .history_container {
-  margin-top: 88px;
   margin-bottom: 200px;
-  display: flex;
-  flex-direction: column;
+  margin-top: 88px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
 }
 
 .history_card {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 32px 24px;
   gap: 24px;
   background: rgba(43, 54, 70, 0.05);
   border-radius: 8px;
-  width: fit-content;
+  width: fit-content; */
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 1.5fr 0.5fr;
+  padding: 32px 24px;
+  gap: 24px;
+  background: rgba(43, 54, 70, 0.05);
+  border-radius: 8px;
+  width: 100%;
 }
 
-.history_card_type,
-.history_card__date {
+.history_card_type {
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 185% */
-
+  text-transform: capitalize;
   letter-spacing: 0.04em;
 
   /* grn */
 
   color: #5db15b;
+}
+
+.history_card__date {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  color: #5db15b;
+}
+
+.history_card__header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
 }
 
 .history_card_title {
@@ -490,6 +512,20 @@ footer div {
   background: #ffffff;
   border-radius: 45px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.history_card_tag img {
+  width: 18px;
+}
+
+.history_card_tag:hover {
+  cursor: pointer;
+  box-shadow: 0 0 4px 4px #5cb15b1c;
+  transition: all ease 0.3s;
 }
 
 /*** Growth Program ************/
@@ -733,11 +769,18 @@ footer div {
   .project_card {
     max-width: unset;
   }
+  .history_container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .consortum_container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .history_container {
+    grid-template-columns: 1fr;
   }
 
   .nav_linksNAV {
