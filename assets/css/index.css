@@ -49,9 +49,21 @@
 
 nav {
   padding-top: 56px;
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  left: 50%;
+  padding: 32px 160px 16px 160px;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+nav > * {
+  z-index: 1;
 }
 
 nav .nav_links {
@@ -96,7 +108,7 @@ nav a:hover {
   min-height: 400px;
   background-image: url("img1.png");
   background-position: center center;
-  margin: 100px 0;
+  margin: 160px 0 100px 0;
   padding-top: 100px;
 }
 
@@ -113,7 +125,7 @@ nav a:hover {
   background-image: url("img2.png");
   background-position: top;
   background-repeat: no-repeat;
-  margin: 100px 0;
+  margin: 160px 0 100px 0;
   padding-top: 100px;
   padding-bottom: 100px;
   height: fit-content;
