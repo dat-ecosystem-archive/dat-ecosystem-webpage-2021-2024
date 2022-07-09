@@ -299,13 +299,17 @@ h1 {
 }
 
 .project_card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: grid;
+  grid-template-rows: 0.5fr 2fr;
   padding: 48px 24px;
   background: rgba(43, 54, 70, 0.05);
   border-radius: 8px;
   max-width: 308px;
+}
+
+.project_card__data {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 0fr 0fr;
 }
 
 .project_card__img {
@@ -358,14 +362,15 @@ h1 {
 
 .project_tag {
   padding: 6px 14px;
-  background: #5db15b;
+  background: transparent;
   border-radius: 29px;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #5db15b;
+  border: 1px solid #5db15b;
 }
 
 footer {
@@ -419,7 +424,8 @@ footer div {
   width: fit-content;
 }
 
-.history_card_typAndDate {
+.history_card_type,
+.history_card__date {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;

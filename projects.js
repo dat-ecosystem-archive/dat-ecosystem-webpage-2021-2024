@@ -1,4 +1,3 @@
-
 const projects = [
     {
         id: 1,
@@ -127,7 +126,7 @@ const projects = [
     },
     {
         id: 6,
-        img: 'assets/images/projects/Consento.png',
+        img: 'assets/images/projects/consento.png',
         title: 'Consento',
         text: 'Data privacy for humans, by humans.', 
         socials: [
@@ -412,7 +411,7 @@ let project = projects.map(e => `<div class="project_card">
             alt=""
         />
     </div>   
-    <div>
+    <div class='project_card__data'>
         <h6 class="project_title">${e.title}</h6>
         <p class="project_text">
             ${e.text}
