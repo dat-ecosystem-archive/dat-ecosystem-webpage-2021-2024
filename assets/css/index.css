@@ -48,7 +48,6 @@
 }
 
 nav {
-  padding-top: 56px;
   position: fixed;
   top: 0;
   display: flex;
@@ -56,10 +55,13 @@ nav {
   align-items: center;
   width: 100%;
   left: 50%;
-  padding: 32px 160px 16px 160px;
+  padding: 24px 160px 16px 160px;
   transform: translateX(-50%);
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
+  background: white;
+}
+
+.sticky {
+  box-shadow: rgb(0 0 0 / 4%) 0px 0 4px 4px;
 }
 
 nav > * {
@@ -708,7 +710,9 @@ footer div {
   width: 90px;
   height: 90px;
 }
-
+.menuIcon {
+  display: none;
+}
 /* Media Quesries */
 
 @media screen and (max-width: 1280px) {
@@ -781,8 +785,38 @@ footer div {
   .project_card {
     max-width: unset;
   }
+
   .history_container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .logo {
+    width: 32px;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav_links {
+    display: none !important;
+    background-color: blue;
+  }
+
+  .menuIcon {
+    display: flex;
   }
 }
 
@@ -936,4 +970,42 @@ footer div {
   position: absolute;
   top: -5px;
   right: -30px;
+}
+
+/*** Sidemenu **********/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  color: #283648;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  height: 100vh;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #283648;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #5db15b;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  font-size: 32px;
 }
