@@ -62,6 +62,7 @@ nav {
 
 .sticky {
   box-shadow: rgb(0 0 0 / 4%) 0px 0 4px 4px;
+  z-index: 2;
 }
 
 nav > * {
@@ -84,6 +85,12 @@ nav .nav_links {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+.nav_linksSM a:hover img,
+a:hover img {
+  opacity: 0.7;
+  transition: all ease 0.3s;
 }
 
 nav a {
