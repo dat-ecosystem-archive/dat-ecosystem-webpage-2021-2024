@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/timeline.css" />
     <title>Dat Ecosystem</title>
   </head>
   <body>
@@ -24,11 +25,11 @@
 
         <div class="nav_links">
           <div class="nav_linksNAV">
-            <a class="activeLink" href="index.html">Projects</a>
+            <a href="index.html">Projects</a>
             <a href="growth-program.html">Growth Program</a>
             <a href="consortium.html">Consortium</a>
             <a href="about.html">About</a>
-            <a href="history.html">History</a>
+            <a class="activeLink" href="history.html">History</a>
 
             <a href="https://blog.dat-ecosystem.org/">Blog</a>
           </div>
@@ -56,11 +57,11 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
             >&times;</a
           >
-          <a class="activeLink" href="index.html">Projects</a>
+          <a href="index.html">Projects</a>
           <a href="growth-program.html">Growth Program</a>
           <a href="consortium.html">Consortium</a>
           <a href="about.html">About</a>
-          <a href="history.html">History</a>
+          <a class="activeLink" href="history.html">History</a>
 
           <a href="https://blog.dat-ecosystem.org/">Blog</a>
           <div class="nav_linksSM">
@@ -81,30 +82,24 @@
     <!-- HEADER -->
     <header class="header_projects">
       <div class="container_inner">
-        <h1>Dat Ecosystem</h1>
+        <h1>History</h1>
         <p class="header__p">
-          Is comprised of many groups bulding on top of the
-          <a target="_blank" href="https://hypercore-protocol.org/"
-            >Hypercore protocol</a
-          >. But it's also more - a constellation of people and shared values.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+          beatae dignissimos rem libero odio iste amet quasi, praesentium nemo
+          eveniet dolor temporibus.
         </p>
       </div>
     </header>
 
-    <!-- PROJECTS -->
+    <!-- History -->
     <article class="container_inner">
       <div class="article_header">
-        <h6 class="article_header_h6">We Take Pride in What We Do</h6>
-        <h1 class="article_header_h1">Projects</h1>
-        <h3 class="article_header_h3">
-          Hendrerit purus, ornare lorem orci. Viverra volutpat et quam urna amet
-          mi. Lectus molestie sagittis, amet lacus, vitae nec erat.
-        </h3>
+        <h6 class="article_header_h6">HISTORY</h6>
+        <h1 class="article_header_h1">How It All Started</h1>
       </div>
 
-      <div id="projectsContainer" class="projects_container"></div>
+      <div class="timeline" id="timeline"></div>
     </article>
-
     <!-- FOOTER -->
     <footer class="container_inner">
       <p>Join the Dat Ecosystem chat network</p>
@@ -119,7 +114,7 @@
         /></a>
       </div>
     </footer>
-    <script src="projects.js"></script>
+    <script src="history.js"></script>
     <script src="navbar.js"></script>
     <script src="bundle.js"></script>
   </body>
