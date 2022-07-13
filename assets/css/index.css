@@ -125,7 +125,7 @@ nav a:hover {
   height: fit-content;
   background-image: url("img1.png");
   background-position: center center;
-  margin: 100px 0;
+  margin: 160px 0 100px 0;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -245,6 +245,12 @@ h1 {
   justify-content: center;
   margin-top: 88px;
   margin-bottom: 200px;
+}
+
+.cons_container {
+  margin-top: 88px;
+  margin-bottom: 200px;
+  gap: 40px;
 }
 
 .toolsweuse_container {
@@ -720,25 +726,107 @@ footer div {
 .menuIcon {
   display: none;
 }
-/* Media Quesries */
 
-@media screen and (max-width: 1280px) {
-  .container_inner {
-    max-width: 930px !important;
-    padding: 0 24px;
-  }
-
-  .mission_container,
-  .focus_container {
-    flex-wrap: wrap;
-  }
-
-  .toolsweuse_container {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+.cons_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.cons_container .gp_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 24px 88px;
+}
+
+.cons_container > .con_card {
+  display: flex;
+  flex-direction: row;
+  gap: 104px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.con_card_imgContainer {
+  width: 100%;
+  max-width: 150px;
+}
+
+.gp_content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.gp_content a {
+  color: #283648;
+  text-decoration: none;
+  position: relative;
+}
+
+.gp_content a:hover {
+  color: #5db15b;
+}
+
+.gp_content a::after {
+  content: url(../images/externalLink.png);
+  position: absolute;
+  top: -5px;
+  right: -30px;
+}
+
+.gp_content p {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+}
+/*** Sidemenu **********/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  color: #283648;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  height: 100vh;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #283648;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #5db15b;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  font-size: 32px;
+}
+
+/* Media Quesries */
+
 @media screen and (max-width: 1440px) {
+  .cons_container > .con_card {
+    max-width: 1100px;
+  }
   .container_inner {
     max-width: 1100px;
   }
@@ -777,6 +865,30 @@ footer div {
 
   .gr_card {
     max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container_inner {
+    max-width: 930px !important;
+    padding: 0 24px;
+  }
+
+  .cons_container > .con_card {
+    display: flex;
+    flex-direction: column !important;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mission_container,
+  .focus_container {
+    flex-wrap: wrap;
+  }
+
+  .toolsweuse_container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -937,6 +1049,10 @@ footer div {
     flex-direction: column;
     gap: 32px;
   }
+
+  .cons_container .gp_content {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -954,65 +1070,4 @@ footer div {
   .toolsweuse_container {
     grid-template-columns: 1fr;
   }
-}
-
-.gp_content {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.gp_content a {
-  color: #283648;
-  text-decoration: none;
-  position: relative;
-}
-
-.gp_content a:hover {
-  color: #5db15b;
-}
-
-.gp_content a::after {
-  content: url(../images/externalLink.png);
-  position: absolute;
-  top: -5px;
-  right: -30px;
-}
-
-/*** Sidemenu **********/
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #f1f1f1;
-  color: #283648;
-  overflow-x: hidden;
-  transition: 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 32px;
-  height: 100vh;
-}
-
-.sidenav a {
-  text-decoration: none;
-  font-size: 24px;
-  color: #283648;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #5db15b;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 32px;
-  right: 32px;
-  font-size: 32px;
 }
