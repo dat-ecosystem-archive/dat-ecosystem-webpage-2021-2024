@@ -119,6 +119,8 @@ nav a:hover {
   background-position: center center;
   margin: 160px 0 100px 0;
   padding-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header_consortium {
@@ -128,6 +130,8 @@ nav a:hover {
   margin: 160px 0 100px 0;
   padding-top: 100px;
   padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header_about {
@@ -245,6 +249,10 @@ h1 {
   justify-content: center;
   margin-top: 88px;
   margin-bottom: 200px;
+}
+
+.timeline {
+  margin-bottom: 200px !important;
 }
 
 .cons_container {
@@ -402,7 +410,7 @@ h1 {
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 32px 104px !important;
@@ -410,6 +418,13 @@ footer {
   background: rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   margin-bottom: 200px !important;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 footer p {
@@ -422,6 +437,24 @@ footer p {
   letter-spacing: 0.02em;
 
   color: #283648;
+}
+
+.mitsu {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.mitsu img {
+  position: relative;
+  top: 2px;
+}
+
+.mitsuLink {
+  color: #5db15b !important;
+  cursor: pointer;
+  text-transform: none;
+  transition: all ease 0.3s;
 }
 
 footer div {
@@ -710,7 +743,7 @@ footer div {
   display: flex;
   flex-direction: column;
 
-  padding: 40px 24px;
+  padding: 88px 80px 88px 72px;
   gap: 32px;
   max-width: 600px;
   background: rgba(43, 54, 70, 0.05);
@@ -744,14 +777,16 @@ footer div {
 .cons_container > .con_card {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 104px;
   width: 100%;
-  max-width: 1200px;
+  max-width: unset;
+  min-height: 320px;
 }
 
 .con_card_imgContainer {
   width: 100%;
-  max-width: 150px;
+  max-width: 230px;
 }
 
 .gp_content {
@@ -824,9 +859,6 @@ footer div {
 /* Media Quesries */
 
 @media screen and (max-width: 1440px) {
-  .cons_container > .con_card {
-    max-width: 1100px;
-  }
   .container_inner {
     max-width: 1100px;
   }
@@ -877,9 +909,11 @@ footer div {
   .cons_container > .con_card {
     display: flex;
     flex-direction: column !important;
-    max-width: 700px;
     justify-content: center;
     align-items: center;
+
+    max-width: unset;
+    min-height: unset;
   }
 
   .mission_container,
@@ -942,6 +976,19 @@ footer div {
 @media only screen and (max-width: 768px) {
   .consortum_container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .mitsu {
+    text-align: center;
   }
 
   .history_container {
