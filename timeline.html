@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="/assets/css/timeline.css" />
     <title>Dat Ecosystem</title>
   </head>
   <body>
@@ -24,9 +25,9 @@
 
         <div class="nav_links">
           <div class="nav_linksNAV">
-            <a class="activeLink" href="index.html">Projects</a>
+            <a href="index.html">Projects</a>
             <a href="growth-program.html">Growth Program</a>
-            <a href="timeline.html">Timeline</a>
+            <a class="activeLink" href="timeline.html">Timeline</a>
             <a href="consortium.html">Consortium</a>
           </div>
           <div class="nav_linksSM">
@@ -54,11 +55,11 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
             >&times;</a
           >
-          <a class="activeLink" href="index.html">Projects</a>
+          <a href="index.html">Projects</a>
           <a href="growth-program.html">Growth Program</a>
           <a href="consortium.html">Consortium</a>
           <a href="about.html">About</a>
-          <a href="timeline.html">Timeline</a>
+          <a class="activeLink" href="timeline.html">Timeline</a>
 
           <a href="https://blog.dat-ecosystem.org/">Blog</a>
           <div class="nav_linksSM">
@@ -79,41 +80,38 @@
     <!-- HEADER -->
     <header class="header_projects">
       <div class="container_inner">
-        <h1>Dat Ecosystem</h1>
+        <h1>Timeline</h1>
         <p class="header__p">
-          Is comprised of many projects bulding on top of the
-          <a target="_blank" href="https://hypercore-protocol.org/"
-            >Hypercore protocol</a
-          >. But it's also more - a constellation of people and shared values.
+          Dat started as a community-driven project for distributed data syncronization. 
+          Its first project was a protocol which later grew to become the independent project (Hypercore protocol). 
+          <br>
+          <br>
+          Dat today is a global community of projects working side by side on open and secure protocols for the web of commons. 
         </p>
       </div>
     </header>
 
-    <!-- PROJECTS -->
+    <!-- Timeline -->
     <article class="container_inner">
       <div class="article_header">
-        <h6 class="article_header_h6">Community for the next generation Web</h6>
-        <h1 class="article_header_h1">Projects</h1>
-        <h3 class="article_header_h3">
-          Dat ecosystem is driven forward by many projects, most self funded. Some of the projects contribute maintainance and development to core pieces of the Dat ecosystem while others create high level applications built on top of p2p protocols.
-        </h3>
+        <h6 class="article_header_h6">Dat story</h6>
+        <h1 class="article_header_h1">How It All Started</h1>
       </div>
 
-      <div id="projectsContainer" class="projects_container"></div>
+      <div class="timeline" id="timeline"></div>
     </article>
-
-    <!-- FOOTER -->
-    <footer class="container_inner">
+     <!-- FOOTER -->
+     <footer class="container_inner">
       <div class="footerContent">
         <p>Join the Dat Ecosystem chat network</p>
         <div>
           <a href="https://discord.gg/egsvGc9TkQ" target="_blank"
-          ><img src="assets/images/HOME/icons8-discord-new-100.png" alt="discord"
+          ><img src="assets/images/HOME/icons8-discord-new-100.png" alt=""
           /></a>
           <a
           target="_blank"
           href="https://github.com/dat-ecosystem/dat-ecosystem.github.io/blob/main/README.md#connect-to-cabal-with-cli-or-download-cabal-desktop"
-          ><img src="assets/images/Cabal.png" alt="cabal"
+          ><img src="assets/images/Cabal.png" alt=""
           /></a>
         </div>
       </div>
@@ -124,7 +122,7 @@
   <p class="mitsu">
     Made With <img src="./assets/images/heart.png" width="16" alt=""> By <a class="mitsuLink" href="https://mitsustudio.com/">MitsuStudio.com</a>
   </p>
-    <script src="projects.js"></script>
+    <script src="timeline.js"></script>
     <script src="navbar.js"></script>
     <script src="bundle.js"></script>
   </body>
