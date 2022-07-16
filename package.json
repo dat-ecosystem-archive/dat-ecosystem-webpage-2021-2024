@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "web page for dat-ecosystem",
   "main": "src/index.js",
-  "dependencies": {
-    "budo": "^11.6.4"
+  "devDependencies": {
+    "budo": "^11.7.0"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "budo src/index.js:bundle.js --live --open",
     "build": "browserify src/index.js > bundle.js",
