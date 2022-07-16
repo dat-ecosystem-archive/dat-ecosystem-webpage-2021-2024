@@ -215,10 +215,6 @@ let data = [
       date: ["2015/12", "Dec 2015"],
       text: "Alpha testing with pilot projects in science, including Sloan Digital Sky Survey (Astronomy), iRNA-Seq (Bioinformatics – RNA), and Bionode (Bioinformatics – DNA)Hypercore v1.0.0 is released",
       tags: [
-        {
-          text: "",
-          url: "",
-        },
       ],
     },
     {
@@ -880,18 +876,18 @@ let data = [
 
   let ee = data.map(d => `<div class="content container0 right">
  
-  <div class="history_card">
-  <div class="history_card__header">
-      <p class="history_card__date">${d.date[1]}</p>
-      <p class="history_card_type">${d.type}</p>
+  <div class="timeline_card">
+  <div class="timeline_card__header">
+      <p class="timeline_card__date">${d.date[1]}</p>
+      <p class="timeline_card_type">${d.type}</p>
   </div>
-  <p class="history_card_title">${d.title}</p>
-  <p class="history_card_text">${d.text}</p>
-  <div class="history_card_tags">
+  <p class="timeline_card_title">${d.title}</p>
+  <p class="timeline_card_text">${d.text}</p>
+  <div class="timeline_card_tags">
       ${d.tags.length === 0 ? null : d.tags
           .map(
           (tag) =>
-              `<a class="history_card_tag" target='_blank' href="${tag.url}">${tag.text}
+              `<a class="timeline_card_tag" target='_blank' href="${tag.url}">${tag.text}
                   <img src='./assets/images/externalLink.png' />
               </a>`
           )

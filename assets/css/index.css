@@ -389,6 +389,7 @@ h1 {
   margin-bottom: 40px;
 }
 
+
 .project_tags {
   display: flex;
   flex-wrap: wrap;
@@ -465,7 +466,7 @@ footer div {
   align-items: center;
 }
 
-.history_container {
+.timeline_container {
   margin-bottom: 200px;
   margin-top: 88px;
   display: grid;
@@ -473,7 +474,7 @@ footer div {
   gap: 32px;
 }
 
-.history_card {
+.timeline_card {
   /* display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -491,21 +492,20 @@ footer div {
   width: 100%;
 }
 
-.history_card_type {
+.timeline_card_type {
+  padding: 6px 14px;
+  background: transparent;
+  border-radius: 29px;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 185% */
-  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 19px;
   letter-spacing: 0.04em;
-
-  /* grn */
-
   color: #5db15b;
+  border: 1px solid #5db15b;
 }
 
-.history_card__date {
+.timeline_card__date {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -514,14 +514,14 @@ footer div {
   color: #5db15b;
 }
 
-.history_card__header {
+.timeline_card__header {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   width: 100%;
 }
 
-.history_card_title {
+.timeline_card_title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -537,7 +537,7 @@ footer div {
   color: #283648;
 }
 
-.history_card_text {
+.timeline_card_text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -551,14 +551,14 @@ footer div {
   color: #283648;
 }
 
-.history_card_tags {
+.timeline_card_tags {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 8px;
 }
 
-.history_card_tag {
+.timeline_card_tag {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -578,11 +578,11 @@ footer div {
   gap: 8px;
 }
 
-.history_card_tag img {
+.timeline_card_tag img {
   width: 18px;
 }
 
-.history_card_tag:hover {
+.timeline_card_tag:hover {
   cursor: pointer;
   box-shadow: 0 0 4px 4px #5cb15b1c;
   transition: all ease 0.3s;
@@ -618,6 +618,7 @@ footer div {
 .gr_card img {
   display: flex;
   margin: 0 auto 24px auto;
+  width: 65px;
 }
 
 .gr_card li,
@@ -753,8 +754,8 @@ footer div {
 .con_card_img {
   display: flex;
   margin: 0 auto 16px auto;
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
 }
 .menuIcon {
   display: none;
@@ -898,6 +899,7 @@ footer div {
   .gr_card {
     max-width: 310px;
   }
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -939,7 +941,7 @@ footer div {
     max-width: unset;
   }
 
-  .history_container {
+  .timeline_container {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -991,7 +993,7 @@ footer div {
     text-align: center;
   }
 
-  .history_container {
+  .timeline_container {
     grid-template-columns: 1fr;
   }
 
@@ -1009,7 +1011,7 @@ footer div {
     flex-wrap: wrap;
   }
 
-  .history_card_title {
+  .timeline_card_title {
     font-size: 18px;
     line-height: 27px;
   }

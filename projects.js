@@ -7,22 +7,39 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://agregore.mauve.moe/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/AgregoreWeb/agregore-browser'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://discord.gg/QMthd4Y'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                link: 'https://twitter.com/AgregoreBrowser'
             }
         ], 
-        tags: ['Node JS', 'P2P Browser']
+        tags: ['hypercore', 'ipfs', 'p2p browser']
+    },
+    {
+        id: 1,
+        img: 'assets/images/projects/ahau.jpg',
+        title: 'Ahau',
+        text: 'Keep track of whānau whakapapa information, preserve and share cultural records and narratives, own and control whānau data and servers, and build a stronger sense of whānau, community and identity.', 
+        socials: [
+            {
+                img: 'assets/images/website.png',
+                link: 'https://ahau.io/'
+            },
+            {
+                img: 'assets/images/HOME/gitlab.png',
+                link: 'https://gitlab.com/ahau/ahau'
+            },
+        ], 
+        tags: ['hypercore', 'ssb']
     },
     {
         id: 2,
@@ -32,22 +49,22 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://ara.one/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/AraBlocks/'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://discord.gg/eUMzA4Y'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                link: 'http://twitter.com/arablocks'
             }
         ], 
-        tags: ['Node JS', 'Music']
+        tags: ['hypercore', 'ethereum']
     },
     {
         id: 3,
@@ -57,22 +74,18 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://arso.xyz/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/arso-project'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://discord.gg/XfUPZFH6cj'
             },
-            {
-                img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
-            }
         ], 
-        tags: ['Node JS', 'P2P Search']
+        tags: ['hypercore', 'p2p search']
     },
     {
         id: 4,
@@ -82,22 +95,18 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://beakerbrowser.com/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
-            },
-            {
-                img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://github.com/beakerbrowser/beaker'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                link: 'https://twitter.com/beakerbrowser'
             }
         ], 
-        tags: ['Node JS', 'P2P Browser']
+        tags: ['hypercore', 'p2p browser']
     },
     {
         id: 5,
@@ -107,22 +116,18 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://cabal.chat/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/cabal-club'
             },
             {
-                img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
-            },
-            {
-                img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                img: 'assets/images/HOME/open-collective.png',
+                link: 'https://opencollective.com/cabal-club'
             }
         ], 
-        tags: ['Node JS', 'P2P Chat']
+        tags: ['hypercore', 'kappa db', 'p2p chat']
     },
     {
         id: 6,
@@ -132,22 +137,22 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://consento.org/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/consento-org/'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://discord.gg/BAPxpGjgXH'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                link: 'https://twitter.com/consentoorg'
             }
         ], 
-        tags: ['Node JS', 'Key Management']
+        tags: ['hypercore', 'Key Management']
     },
     {
         id: 7,
@@ -156,23 +161,11 @@ const projects = [
         text: 'C++ implementation of Hypercore protocol.', 
         socials: [
             {
-                img: 'assets/images/website.png',
-                link: ''
-            },
-            {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/hypercore-cxx'
             },
-            {
-                img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
-            },
-            {
-                img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
-            }
         ], 
-        tags: ['C++', 'Protocol']
+        tags: ['C++', 'hypercore']
     },
     {
         id: 8,
@@ -182,22 +175,26 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://datdot.org/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/datdotorg'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://discord.gg/CbC325ZkVP'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                link: 'https://twitter.com/datdotorg'
+            },
+            {
+                img: 'assets/images/HOME/open-collective.png',
+                link: 'https://opencollective.com/datdotorg'
             }
         ], 
-        tags: ['Node JS', 'Rust', 'P2P Hosting']
+        tags: ['hypercore', 'rust', 'p2p hosting']
     },
     {
         id: 9,
@@ -206,70 +203,54 @@ const projects = [
         text: 'Rust implementation of the Hyper protocols.', 
         socials: [
             {
-                img: 'assets/images/website.png',
-                link: ''
-            },
-            {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/datrs'
             },
-            {
-                img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
-            },
-            {
-                img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
-            }
         ], 
-        tags: [ 'Rust', 'Protocol']
+        tags: [ 'rust', 'hypercore']
     },
     {
         id: 10,
         img: 'assets/images/projects/pico.png',
-        title: 'Pico Stack',
+        title: 'Pico',
         text: 'Web3 Framework, 0% Backend, 10000% Frontend.', 
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://decentlabs.se/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/telamon/picostack'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://discord.gg/8RMRUPZ9RS'
             },
-            {
-                img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
-            }
         ], 
-        tags: [ 'Node JS', 'Framework']
+        tags: [ 'hyperswarm', 'pico']
     },
     {
         id: 11,
-        img: 'assets/images/projects/hypercore-protocol.png',
+        img: 'assets/images/projects/hypercore-protocol.svg',
         title: 'Hypercore protocol',
         text: 'A world of distributed data structures', 
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://hypercore-protocol.org/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/hypercore-protocol'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://chat.hypercore-protocol.org/'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                link: 'https://twitter.com/hypercoreproto'
             }
         ], 
         tags: [ 'Node JS', 'Protocol']
@@ -282,22 +263,18 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://peermaps.org/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/peermaps'
             },
             {
-                img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
-            },
-            {
-                img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                img: 'assets/images/HOME/open-collective.png',
+                link: 'https://opencollective.com/peermaps'
             }
         ], 
-        tags: [ 'Node JS', 'Rust', 'P2P Maps']
+        tags: [ 'hypercore', 'rust', 'p2p maps']
     },
     {
         id: 14,
@@ -307,22 +284,22 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://sher.geutstudio.com/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/geut'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://discord.gg/U97rWWNyeK'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                link: 'https://twitter.com/the_sher_app'
             }
         ], 
-        tags: [ 'Node JS', 'Studio']
+        tags: [ 'hypercore', 'p2p streaming']
     },
     {
         id: 16,
@@ -332,22 +309,22 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://socketsupply.co/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/socketsupply'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://discord.gg/YPV32gKCsH'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                link: 'https://twitter.com/socketsupply'
             }
         ], 
-        tags: [ 'Node JS', 'P2P Computing']
+        tags: [ 'hypercore', 'p2p computing']
     },
     {
         id: 17,
@@ -357,22 +334,22 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://www.telios.io/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
+                link: 'https://github.com/Telios-org'
             },
             {
                 img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://discord.gg/FyFcXHa6rX'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
-                link: ''
+                link: 'https://twitter.com/TeliosInc'
             }
         ], 
-        tags: [ 'Node JS', 'P2P Mail']
+        tags: [ 'hypercore', 'p2p e-mail']
     },
     {
         id: 18,
@@ -382,22 +359,18 @@ const projects = [
         socials: [
             {
                 img: 'assets/images/website.png',
-                link: ''
+                link: 'https://tradle.io/'
             },
             {
                 img: 'assets/images/HOME/icons8-github-100.png',
-                link: ''
-            },
-            {
-                img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: ''
+                link: 'https://github.com/tradle'
             },
             {
                 img: 'assets/images/HOME/icons8-twitter-100.png',
                 link: ''
             }
         ], 
-        tags: [ 'Node JS']
+        tags: [ 'hypercore', 'kyc']
     }
 ]
  
@@ -417,7 +390,7 @@ let project = projects.map(e => `<div class="project_card">
             ${e.text}
         </p>
         <div class="project_sm">
-            ${e.socials.map(s => `<a href='${s.link}'><img src="${s.img}" alt="" /></a>`).join('')}
+            ${e.socials.map(s => `<a href='${s.link}' target='blank'><img src="${s.img}" alt="" /></a>`).join('')}
         </div>
         <div class="project_tags">
             ${e.tags.map(tag => `<p class="project_tag">${tag}</p>`).join('')}
