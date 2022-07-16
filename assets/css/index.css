@@ -134,14 +134,15 @@ nav a:hover {
   background-size: cover;
 }
 
-.header_about {
-  background-image: url("img2.png");
-  background-position: top;
-  background-repeat: no-repeat;
+.header_timeline {
+  height: fit-content;
+  background-image: url("img1.png");
+  background-position: center center;
   margin: 160px 0 100px 0;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header_tag {
