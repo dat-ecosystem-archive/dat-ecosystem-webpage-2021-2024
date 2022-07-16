@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Dat Ecosystem</title>
+    <link rel="icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      html { box-sizing: border-box;}
+      *, *:before, *:after { box-sizing: inherit; }
+      .app__main {
+        position: relative;
+      }
+      .navlink {
+        /* position: absolute; */
+        padding: 10px;
+        border: 3px solid black;
+        width: 200px;
+        text-align: center;
+        margin-right: 5px;
+        border-radius: 2px;
+      }
+      .navbar {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        /* border: 1px solid red; */
+      }
+      .project {
+        padding: 35px;
+        background: #fff;
+        border-radius: 2px;
+        display: inline-block;
+        margin: 1rem;
+        position: relative;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+      }
+      .project:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      }
+      .project figure img {
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        object-fit: scale-down;
+      }
+    </style>
+    <meta name="description" content="The Internet is broken – and we are using it to access and distribute all of human knowledge. Data monopolies hold and enclose upon personal &amp; public datasets, threatening universal access. To tackle this problem, between 2013 and 2015 we performed a series of design &amp; development sprints in collaboration with researchers, librarians, and civic technologists working to preserve the digital knowledge commons. Out of this research we built Dat, a distributed ledger &amp; peer-to-peer data sharing toolkit.">
+  </head>
+  <body style="zoom: 1;">
+
+    <br>
+    <br>
+    <br>
+
+    <main class="app__main">
+      <div class="navbar">
+        <a class="navlink" href="/">projects</a>
+        <a class="navlink" href="history.html">history</a>
+        <a class="navlink" href="about.html">about</a>
+      </div>
+      <div class="content__default">
+        <h1 class="page-title">Dat Ecosystem</h1>
+        <div class="projects-index__intro">
+          is comprised of many groups bulding on top of the
+          <strong><a style="text-decoration:underline;" href="https://hypercore-protocol.org/">Hypercore protocol</a></strong>. But it's also more -
+          a constellation of people and shared values.
+        </div>
+        <div class="projects-index">
+          <div class="projects-index__filters">&nbsp;</div>
+
+          <h2 class="projects-index__featured__title">&nbsp;</h2>
+
+          <div class="projects-index__grid">
+
+            <div class="project"><a href="https://agregore.mauve.moe/"><figure class="image"><img src="media/agregore.png"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://agregore.mauve.moe/">Agregore</a></div>
+                <div class="project__description">
+                  An experimental web browser for mixing together p2p and web3 protocols.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">p2p browser</span></div>
+              </div>
+            </div>
+
+            <div class="project"><a href="https://ara.one/"><figure class="image"><img src="media/ara.png"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://ara.one/">Ara</a></div>
+                <div class="project__description">
+                  Ara is a set of decentralized, open source software tools that handle real-world, user-level functionality in online identity, content distribution, and rights management.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">music</span></div>
+              </div>
+            </div>
+
+
+            <div class="project"><a href="https://arso.xyz/"><figure class="image"><img src="media/arso.png"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://arso.xyz/">Arso</a></div>
+                <div class="project__description">
+                  Arso builds tools for decentralized archives of community media, currently developing Sonar, a p2p database and search engine.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">p2p search</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://beakerbrowser.com/"><figure class="image"><img src="media/beaker.png"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://beakerbrowser.com/">Beaker</a></div>
+                <div class="project__description">Beaker is an experimental browser for exploring and building the peer-to-peer Web.</div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">p2p browser</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://cabal.chat/"><figure class="image"><img src="media/cabal.png"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://cabal.chat/">Cabal</a></div>
+                <div class="project__description">
+                  Cabal is an experimental p2p community chat platform, focusing on group chat in channels.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">p2p chat</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://consento.org/"><figure class="image"><img src="media/consento.png"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://consento.org/">Consento</a></div>
+                <div class="project__description">
+                  Data privacy for humans, by humans.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">key management</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/hypercore-cxx"><figure class="image"><img src="media/datcxx.png"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://github.com/hypercore-cxx">Hypercore CXX</a></div>
+                <div class="project__description">
+                  C++ implementation of Hypercore protocol.
+                </div>
+                <div class="project__tags"><span class="tag">c++</span><span class="tag">protocol</span></div>
+              </div>
+            </div>
+
+            <div class="project"><a href="https://datdot.org/"><figure class="image"><img src="media/datdot.jpg"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://datdot.org/">DatDot</a></div>
+                <div class="project__description">
+                  Autonomous hosting network for p2p data systems.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">rust</span><span class="tag">p2p hosting</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/datrs"><figure class="image"><img src="media/datrs.png"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://github.com/datrs">DatRS</a></div>
+                <div class="project__description">
+                  Rust implementation of the Hyper protocols. 
+                </div>
+                <div class="project__tags"><span class="tag">rust</span><span class="tag">protocol</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://pico-todo.surge.sh/"><figure class="image"><img src="media/pico.png"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://pico-todo.surge.sh/">Pico Stack</a></div>
+                <div class="project__description">
+                  Web3 Framework, 0% Backend, 10000% Frontend.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">framework</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://hypercore-protocol.org/"><figure class="image"><img src="media/hypercore-protocol.svg"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://hypercore-protocol.org/">Hypercore protocol</a></div>
+                <div class="project__description"> A world of distributed data structures</div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">protocol</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://peermaps.org/"><figure class="image"><img src="media/peermaps.svg"></figure></a>
+              <div class="project__details"><div class="project__name"><a href="https://peermaps.org/">Peermaps</a></div>
+                <div class="project__description">
+                  Peermaps is a distributed, offline-friendly alternative to commercial map providers such as google maps.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">rust</span><span class="tag">p2p maps</span></div>
+              </div>
+            </div>
+
+
+            <div class="project"><a href="https://sher.geutstudio.com/">
+              <figure class="image"><img src="media/sher.svg"></figure></a>
+              <div class="project__details">
+                <div class="project__name"><a href="https://sher.geutstudio.com/">Sher</a></div>
+                <div class="project__description">A decentralized live streaming audio platform. </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">studio</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://socketsupply.co/"><figure class="image"><img src="media/socket-supply.png"></figure></a>
+              <div class="project__details"><div class="project__name"><a href="https://socketsupply.co/">Socket Supply</a></div>
+                <div class="project__description">
+                    Deploy everywhere. Peer to peer and cloud computing.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">p2p computing</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://telios.io/"><figure class="image"><img src="media/telios.png"></figure></a>
+              <div class="project__details"><div class="project__name"><a href="https://telios.io/">Telios</a></div>
+                <div class="project__description">
+                  Peer-to-Peer Decentralized Email for Privacy and Security
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span><span class="tag">p2p mail</span></div>
+              </div>
+            </div>
+
+            <div class="project">
+              <a href="https://tradle.io/"><figure class="image"><img src="media/tradle.png"></figure></a>
+              <div class="project__details"><div class="project__name"><a href="https://tradle.io/">Tradle</a></div>
+                <div class="project__description">
+                  Building a trust provisioning network.
+                </div>
+                <div class="project__tags"><span class="tag">nodejs</span></div>
+              </div>
+            </div>
+
+            <!--
+              <div class="project">
+                <a href=""><figure class="image"><img src=""></figure></a>
+                <div class="project__details">
+                  <div class="project__name"><a href="">Name of the project</a></div>
+                  <div class="project__description">
+                    Some description here
+                  </div>
+                  <div class="project__tags"><span class="tag">some tag</span><span class="tag">community</span></div>
+                </div>
+              </div>
+            -->
+
+          </div>
+
+          <br><br><br>
+          <center><p>
+          <div class="projects-index__intro">
+            Join the Dat Ecosystem chat network
+            <strong><a style="text-decoration:underline;" href="https://discord.com/invite/dPEKwfrv2D">with Discord</a></strong>
+            or
+            <strong><a style="text-decoration:underline;" href="https://github.com/dat-ecosystem/dat-ecosystem.github.io/blob/main/README.md#connect-to-cabal-with-cli-or-download-cabal-desktop">Cabal</a></strong>
+          </div></p></center>
+
+        </div>
+      </div>
+
+    </main>
+    <script src="bundle.js"></script>
+  <body>
+</html>
