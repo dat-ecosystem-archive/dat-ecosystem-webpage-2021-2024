@@ -155,19 +155,6 @@ nav a:hover {
   color: rgba(40, 54, 72, 0.75);
 }
 
-.header_about_p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
-
-  text-align: justify;
-  letter-spacing: 0.02em;
-  max-width: 1113px;
-  color: #283648;
-}
-
 h1 {
   font-family: "Roboto";
   font-style: normal;
