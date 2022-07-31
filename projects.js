@@ -25,7 +25,7 @@ const projects = [
         tags: ['hypercore', 'ipfs', 'p2p browser']
     },
     {
-        id: 1,
+        id: 2,
         img: 'assets/images/projects/ahau.jpg',
         title: 'Ahau',
         text: 'Keep track of whānau whakapapa information, preserve and share cultural records and narratives, own and control whānau data and servers, and build a stronger sense of whānau, community and identity.', 
@@ -42,7 +42,7 @@ const projects = [
         tags: ['hypercore', 'ssb']
     },
     {
-        id: 2,
+        id: 3,
         img: 'assets/images/projects/ara.png',
         title: 'Ara',
         text: 'Ara is a set of decentralized, open source software tools that handle real-world, user-level functionality in online identity, content distribution, and rights management.', 
@@ -67,7 +67,7 @@ const projects = [
         tags: ['hypercore', 'ethereum']
     },
     {
-        id: 3,
+        id: 4,
         img: 'assets/images/projects/arso.png',
         title: 'Arso',
         text: 'Arso builds tools for decentralized archives of community media, currently developing Sonar, a p2p database and search engine.', 
@@ -88,7 +88,7 @@ const projects = [
         tags: ['hypercore', 'p2p search']
     },
     {
-        id: 4,
+        id: 5,
         img: 'assets/images/projects/beaker.png',
         title: 'Beaker',
         text: 'Beaker is an experimental browser for exploring and building the peer-to-peer Web.', 
@@ -109,7 +109,7 @@ const projects = [
         tags: ['hypercore', 'p2p browser']
     },
     {
-        id: 5,
+        id: 6,
         img: 'assets/images/projects/cabal.svg',
         title: 'Cabal',
         text: 'Cabal is an experimental p2p community chat platform, focusing on group chat in channels.', 
@@ -130,7 +130,7 @@ const projects = [
         tags: ['hypercore', 'kappa db', 'p2p chat']
     },
     {
-        id: 6,
+        id: 7,
         img: 'assets/images/projects/consento.png',
         title: 'Consento',
         text: 'Data privacy for humans, by humans.', 
@@ -155,22 +155,9 @@ const projects = [
         tags: ['hypercore', 'Key Management']
     },
     {
-        id: 7,
-        img: 'assets/images/projects/datcxx.png',
-        title: 'Hypercore CXX',
-        text: 'C++ implementation of Hypercore protocol.', 
-        socials: [
-            {
-                img: 'assets/images/HOME/icons8-github-100.png',
-                link: 'https://github.com/hypercore-cxx'
-            },
-        ], 
-        tags: ['C++', 'hypercore']
-    },
-    {
         id: 8,
         img: 'assets/images/projects/datdot.png',
-        title: 'Dat Dot',
+        title: 'DatDot',
         text: 'Autonomous hosting network for p2p data systems.', 
         socials: [
             {
@@ -211,27 +198,6 @@ const projects = [
     },
     {
         id: 10,
-        img: 'assets/images/projects/pico.png',
-        title: 'Pico',
-        text: 'Web3 Framework, 0% Backend, 10000% Frontend.', 
-        socials: [
-            {
-                img: 'assets/images/website.png',
-                link: 'https://decentlabs.se/'
-            },
-            {
-                img: 'assets/images/HOME/icons8-github-100.png',
-                link: 'https://github.com/telamon/picostack'
-            },
-            {
-                img: 'assets/images/HOME/icons8-discord-new-100.png',
-                link: 'https://discord.gg/8RMRUPZ9RS'
-            },
-        ], 
-        tags: [ 'hyperswarm', 'pico']
-    },
-    {
-        id: 11,
         img: 'assets/images/projects/hypercore-protocol.svg',
         title: 'Hypercore protocol',
         text: 'A world of distributed data structures', 
@@ -254,6 +220,48 @@ const projects = [
             }
         ], 
         tags: [ 'Node JS', 'Protocol']
+    },
+    {
+        id: 11,
+        img: 'assets/images/projects/keet.svg',
+        title: 'Keet',
+        text: 'Peer-to-Peer Chat: Video & Text. Private & Encrypted. Unparalleled Quality.', 
+        socials: [
+            {
+                img: 'assets/images/website.png',
+                link: 'https://keet.io/'
+            },
+            {
+                img: 'assets/images/HOME/icons8-discord-new-100.png',
+                link: 'https://discord.com/invite/holepunch'
+            },
+            {
+                img: 'assets/images/HOME/icons8-twitter-100.png',
+                link: 'https://twitter.com/keet_io'
+            },
+        ], 
+        tags: ['hypercore', 'streaming', 'holepunch']
+    },
+    {
+        id: 12,
+        img: 'assets/images/projects/pico.png',
+        title: 'Pico',
+        text: 'Web3 Framework, 0% Backend, 10000% Frontend.', 
+        socials: [
+            {
+                img: 'assets/images/website.png',
+                link: 'https://decentlabs.se/'
+            },
+            {
+                img: 'assets/images/HOME/icons8-github-100.png',
+                link: 'https://github.com/telamon/picostack'
+            },
+            {
+                img: 'assets/images/HOME/icons8-discord-new-100.png',
+                link: 'https://discord.gg/8RMRUPZ9RS'
+            },
+        ], 
+        tags: [ 'hyperswarm', 'pico']
     },
     {
         id: 13,
@@ -302,7 +310,7 @@ const projects = [
         tags: [ 'hypercore', 'p2p streaming']
     },
     {
-        id: 16,
+        id: 15,
         img: 'assets/images/projects/socket-supply.png',
         title: 'Socket Supply',
         text: 'Deploy everywhere. Peer to peer and cloud computing.', 
@@ -327,7 +335,7 @@ const projects = [
         tags: [ 'hypercore', 'p2p computing']
     },
     {
-        id: 17,
+        id: 16,
         img: 'assets/images/projects/telios.png',
         title: 'Telios',
         text: 'Peer-to-Peer Decentralized Email for Privacy and Security', 
@@ -352,7 +360,7 @@ const projects = [
         tags: [ 'hypercore', 'p2p e-mail']
     },
     {
-        id: 18,
+        id: 17,
         img: 'assets/images/projects/tradle.png',
         title: 'Tradle',
         text: 'Building a trust provisioning network.', 
