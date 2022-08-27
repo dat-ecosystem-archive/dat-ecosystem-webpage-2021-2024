@@ -869,6 +869,73 @@ let data = [
         },
       ],
     },
+    {
+      // 2022 - 3
+      title: 'socket sdk',
+      type: 'project',
+      date: ['2022/06/07', 'Jun 2022'],
+      text: 'socket sdk early access is available',
+      tags: [{
+        text: 'website',
+        url: 'https://socketsupply.co/download/'
+      }]
+    },
+    {
+      // 2022 - 3
+      title: 'peershare',
+      type: 'project',
+      date: ['2022/06/16', 'Jun 2022'],
+      text: 'peershare, a peer-to-peer file sharing over an encrypted noise connection joins the ecosystem',
+      tags: [{
+        text: 'website',
+        url: 'https://peershare.lone-wolf.software/#/'
+      }]
+    },
+    {
+      // 2022 - 3
+      title: 'void',
+      type: 'project',
+      date: ['2022/07/08', 'Jul 2022'],
+      text: 'functional prototype of messenger app, built with hypercore, hyperswarm, and react-native joins the ecosystem',
+      tags: [{
+        text: 'website',
+        url: 'https://screamingvoid.me/'
+      }]
+    },
+    {
+      // 2022 - 3
+      title: 'keet',
+      type: 'project',
+      date: ['2022/07/25', 'Jul 2022'],
+      text: 'hypercore protocol team releases Keet',
+      tags: [{
+        text: 'website',
+        url: 'https://keet.io/'
+      }]
+    },
+    {
+      // 2022 - 3
+      title: 'hyperpubee',
+      type: 'project',
+      date: ['2022/08/20', 'Aug 2022'],
+      text: 'hyperpubee, a platform for decentralised publishing joins the ecosystem',
+      tags: [{
+        text: 'website',
+        url: 'https://www.hyperpubee.org/#/read'
+      }]
+    },
+    {
+      // 2022 - 3
+      title: 'wizard amigos',
+      type: 'project',
+      date: ['2022/08/27', 'Aug 2022'],
+      text: 'wizard amigos join the ecosystem',
+      tags: [{
+        text: 'website',
+        url: 'https://wizardamigos.com'
+      }]
+    },
+  
   ];
 
   let container = document.getElementById("timeline");
