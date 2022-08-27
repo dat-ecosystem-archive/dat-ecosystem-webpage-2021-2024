@@ -109,6 +109,10 @@ nav a:hover {
   transition: var(--transition);
 }
 
+.logo {
+  width: 75px;
+}
+
 .activeLink {
   color: #5db15b;
 }
@@ -942,16 +946,13 @@ footer div {
     padding-right: 24px;
   }
 
-  .logo {
-    width: 32px;
-  }
-
   #navbar {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
   }
+
 
   .nav_links {
     display: none !important;
