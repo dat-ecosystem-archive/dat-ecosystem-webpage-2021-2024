@@ -5,34 +5,6 @@ web page for dat-ecosystem
 * with [Discord](https://discord.gg/dPEKwfrv2D)
 * or with [Cabal](https://github.com/dat-ecosystem/dat-ecosystem.github.io#connect-to-cabal-with-cli-or-download-cabal-desktop)
 
-### List of channels
-
-Community
-* hello
-* general
-* events
-* offtopic
-* typescript
-* modules
-
-Projects
-* agregore
-* ara
-* beaker
-* cabal
-* consento
-* datdot
-* decentlabs
-* earthstar
-* gatewaybrowser
-* geut
-* little-core-labs
-* optoolco
-* peermaps
-* sonar
-* tradle
-
-
 ### Connect to Cabal with **CLI** or [download Cabal desktop](https://cabal.chat/download.html)
 
 1. install cabal
